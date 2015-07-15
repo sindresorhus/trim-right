@@ -2,7 +2,7 @@
 module.exports = function (str) {
 	var tail = str.length;
 
-	while (/[\s\uFEFF\xA0]/.test(str[tail - 1])) {
+	while (/[\s\uFEFF\u00A0]/.test(str[tail - 1])) {
 		tail--;
 	}
 
