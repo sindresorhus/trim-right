@@ -1,6 +1,6 @@
 {
   "name": "trim-right",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Similar to String#trim() but removes only whitespace on the right",
   "license": "MIT",
   "repository": "sindresorhus/trim-right",
