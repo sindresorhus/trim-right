@@ -23,6 +23,7 @@ trimRight('  unicorn  ');
 ## Related
 
 - [`trim-left`](https://github.com/sindresorhus/trim-left) - Similar to `String#trim()` but removes only whitespace on the left
+- [`trim-off-newlines`](https://github.com/stevemao/trim-off-newlines) - Similar to `String#trim()` but removes only newlines
 
 
 ## License
