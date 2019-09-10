@@ -6,14 +6,14 @@
 ## Install
 
 ```
-$ npm install --save trim-right
+$ npm install trim-right
 ```
 
 
 ## Usage
 
 ```js
-var trimRight = require('trim-right');
+const trimRight = require('trim-right');
 
 trimRight('  unicorn  ');
 //=> '  unicorn'
@@ -26,6 +26,14 @@ trimRight('  unicorn  ');
 - [`trim-off-newlines`](https://github.com/stevemao/trim-off-newlines) - Similar to `String#trim()` but removes only newlines
 
 
-## License
+---
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+<div align="center">
+	<b>
+		<a href="https://tidelift.com/subscription/pkg/npm-trim-right?utm_source=npm-trim-right&utm_medium=referral&utm_campaign=readme">Get professional support for this package with a Tidelift subscription</a>
+	</b>
+	<br>
+	<sub>
+		Tidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.
+	</sub>
+</div>
