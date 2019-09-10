@@ -1,10 +1,11 @@
 'use strict';
-module.exports = function (str) {
-	var tail = str.length;
 
-	while (/[\s\uFEFF\u00A0]/.test(str[tail - 1])) {
+module.exports = string => {
+	let tail = string.length;
+
+	while (/[\s\uFEFF\u00A0]/.test(string[tail - 1])) {
 		tail--;
 	}
 
-	return str.slice(0, tail);
+	return string.slice(0, tail);
 };

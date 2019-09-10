@@ -1,37 +1,36 @@
 {
-  "name": "trim-right",
-  "version": "1.0.1",
-  "description": "Similar to String#trim() but removes only whitespace on the right",
-  "license": "MIT",
-  "repository": "sindresorhus/trim-right",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "ava"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "trim",
-    "right",
-    "string",
-    "str",
-    "util",
-    "utils",
-    "utility",
-    "whitespace",
-    "space",
-    "remove",
-    "delete"
-  ],
-  "devDependencies": {
-    "ava": "*"
-  }
+	"name": "trim-right",
+	"version": "1.0.1",
+	"description": "Similar to String#trim() but removes only whitespace on the right",
+	"license": "MIT",
+	"repository": "sindresorhus/trim-right",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"trim",
+		"right",
+		"string",
+		"whitespace",
+		"space",
+		"remove",
+		"delete",
+		"end",
+		"trailing"
+	],
+	"devDependencies": {
+		"ava": "^2.3.0",
+		"xo": "^0.24.0"
+	}
 }
