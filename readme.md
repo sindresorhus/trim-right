@@ -1,4 +1,4 @@
-# trim-right [![Build Status](https://travis-ci.org/sindresorhus/trim-right.svg?branch=master)](https://travis-ci.org/sindresorhus/trim-right)
+# trim-right
 
 > Similar to [`String#trim()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim) but removes only whitespace on the right
 
