@@ -2,29 +2,25 @@
 
 > Similar to [`String#trim()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim) but removes only whitespace on the right
 
-
 ## Install
 
 ```
 $ npm install trim-right
 ```
 
-
 ## Usage
 
 ```js
-const trimRight = require('trim-right');
+import trimRight from 'trim-right';
 
 trimRight('  unicorn  ');
 //=> '  unicorn'
 ```
 
-
 ## Related
 
 - [`trim-left`](https://github.com/sindresorhus/trim-left) - Similar to `String#trim()` but removes only whitespace on the left
 - [`trim-off-newlines`](https://github.com/stevemao/trim-off-newlines) - Similar to `String#trim()` but removes only newlines
-
 
 ---
 

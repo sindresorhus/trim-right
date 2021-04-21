@@ -1,6 +1,4 @@
-'use strict';
-
-module.exports = string => {
+export default function trimRight(string) {
 	let tail = string.length;
 
 	while (/[\s\uFEFF\u00A0]/.test(string[tail - 1])) {
@@ -8,4 +6,4 @@ module.exports = string => {
 	}
 
 	return string.slice(0, tail);
-};
+}

@@ -1,16 +1,19 @@
 {
 	"name": "trim-right",
 	"version": "1.0.1",
-	"description": "Similar to String#trim() but removes only whitespace on the right",
+	"description": "Similar to `String#trim()` but removes only whitespace on the right",
 	"license": "MIT",
 	"repository": "sindresorhus/trim-right",
+	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"url": "https://sindresorhus.com"
 	},
+	"type": "module",
+	"exports": "./index.js",
 	"engines": {
-		"node": ">=8"
+		"node": ">=12"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -30,7 +33,7 @@
 		"trailing"
 	],
 	"devDependencies": {
-		"ava": "^2.3.0",
-		"xo": "^0.24.0"
+		"ava": "^3.15.0",
+		"xo": "^0.39.1"
 	}
 }

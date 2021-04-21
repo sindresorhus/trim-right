@@ -1,5 +1,5 @@
 import test from 'ava';
-import trimRight from '.';
+import trimRight from './index.js';
 
 test('main', t => {
 	t.is(trimRight('  unicorn  '), '  unicorn');
